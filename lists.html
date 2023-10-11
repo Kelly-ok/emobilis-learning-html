@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lists</title>
+  </head>
+  <style>
+    li {
+      font-family: arial;
+      font-size: 15px;
+      list-style-type: none;
+    }
+    .unordered-list {
+      background-color: black;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+    .unordered-list li {
+      margin-right: 30px;
+      padding-left: 100px;
+    }
+    .ordered-list {
+      background-color: rgb(123, 123, 232);
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+    .ordered-list li {
+      margin-right: 30px;
+      padding-left: 100px;
+    }
+    .ordered-list li:hover {
+      background-color: gray;
+    }
+    .unordered-text {
+      color: red;
+    }
+    .ordered-text {
+      color: green;
+    }
+  </style>
+  <body>
+    <h2>List of cars</h2>
+
+    <h2 class="unordered-text">Unordered list</h2>
+    <ul class="unordered-list">
+      <li>Toyota</li>
+      <li>Nissan</li>
+      <li>BMW</li>
+      <li>Mercedes</li>
+      <li>Audi</li>
+    </ul>
+
+    <h2>List of Fruits</h2>
+    <h2 class="ordered-text">Ordered list</h2>
+    <ol class="ordered-list">
+      <li>oranges</li>
+      <li>mangoes</li>
+      <li>bananas</li>
+      <li>passion</li>
+      <li>aple</li>
+    </ol>
+  </body>
+</html>

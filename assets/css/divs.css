@@ -1,0 +1,25 @@
+.fruits {
+  border: 2px solid grey;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: tomato;
+  color: white;
+  font-family: arial;
+}
+.cars {
+  border: 2px solid grey;
+  margin: 20px;
+  padding: 30px;
+  background-color: rgb(34, 26, 26);
+  color: white;
+  font-family: arial;
+  text-align: end;
+}
+.FRUITS {
+  border: 2px solid red;
+  margin: 20px;
+  padding: 15px;
+  font-family: arial;
+  background-color: green;
+}
